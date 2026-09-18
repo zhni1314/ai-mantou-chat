@@ -1,0 +1,27 @@
+# Python 缓存与编译文件
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# 编辑器配置（VS Code / PyCharm 等）
+.vscode/
+.idea/
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 密钥与敏感配置（防止未来不小心把 Key 写进文件）
+.env
+.env.*
+.streamlit/secrets.toml
+*.key
+*.pem
+
+# 运行时的聊天记录（包含隐私，绝对不能上传）
+session/
